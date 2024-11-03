@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "write something",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotgitignore": "^2.1.0",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2",
+    "my-app": "file:",
+    "nodemon": "^3.1.7"
+  }
+}
